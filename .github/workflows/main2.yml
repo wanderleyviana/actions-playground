@@ -1,4 +1,4 @@
-name: Workflow Cria Artefato
+name: WSV - CRIA ARTEFATO
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
 jobs:
 
   checkout_code:
-    name: Faz checkout do Nome
+    name: Valida Nome
     runs-on: ubuntu-latest
       
     steps:
