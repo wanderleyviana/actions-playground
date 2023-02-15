@@ -1,0 +1,18 @@
+on:
+  push:
+  
+jobs:
+
+  checkout_code:
+    name: Faz checkout do codigo
+    runs-on: ubuntu-latest
+          
+    steps:
+    - name: Checkout repositório
+      uses: actions/checkout@v3.3.0
+      
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v3.1.2
+      with:
+        name: ${{ vars.NOME }}
+        path: .
