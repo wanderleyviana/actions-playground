@@ -1,4 +1,4 @@
-name: Workflow Exercício 02 - Cria artefato
+name: WSV - Exercício 02 - Cria artefato
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
 jobs:
 
   checkout_code:
-    name: Faz checkout do codigo
+    name: Faz checkout
     runs-on: ubuntu-latest
           
     steps:
