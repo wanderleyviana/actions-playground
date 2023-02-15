@@ -1,4 +1,4 @@
-name: Imprime data atual
+name: WSV - IMPRIME DATA
 
 on:
   push:
